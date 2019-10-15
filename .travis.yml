@@ -16,6 +16,6 @@ deploy:
   bucket_path: "dockerReact"
   on:
     branch:master
-
-
-  Dockerreact-env.kq74dnrk5w.us-east-2.elasticbeanstalk.com
+  access_key_id: "$AWS_ACCESS_KEY"
+  secret_access_key:
+    secure: "$AWS_SECRET_KEY"
