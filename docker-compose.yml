@@ -8,8 +8,8 @@ services:
     ports:
       - "3001:3001"
     volumes:
-      - /app1/node_modules
-      - .:/app1
+      - /app/node_modules
+      - .:/app
 
   tests:
     build:
